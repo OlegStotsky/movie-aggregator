@@ -10,5 +10,8 @@ func (D DBImpl) GetTheaterMovies(getTheaterMoviesRequest *getTheaterMoviesReques
 	return nil, nil
 }
 
+func (D DBImpl) GetTickets(getTicketsRequest *getTicketsRequest) ([]Ticket, error) {
+	return nil, nil
+}
 
 
